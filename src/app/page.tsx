@@ -18,16 +18,16 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col">
       <div className="mx-5 md:mx-0 flex flex-col items-center gap-x-72 mt-10">
-        <div className="w-full flex justify-end pr-40 items-center gap-4">
+        <div className="w-full flex justify-end lg:pr-40 md:pr-20 items-center gap-4">
           <ModeToggle />
           <Link href="https://github.com/junreldevocion/stock-price-web-app" target="_blank">
             <GitHubLogoIcon height={24} width={24} />
           </Link>
         </div>
         <div className="md:w-[600px] flex flex-col gap-5">
-          <h1 className="text-xl mt-40">
+          <h1 className="text-xl mt-40 text-center">
             Search current stock price using symbol (
-            <span className="text-sm">AAPL, MSFT and etc.</span>
+            <span className="text-sm text-muted text-slate-600">AAPL, MSFT and etc.</span>
             )
           </h1>
           <Search onChange={(e) => setSearch(e)} />
