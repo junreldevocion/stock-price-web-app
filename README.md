@@ -18,7 +18,7 @@ The Stock price web app project is built with:
 
 Navigate into your projects directory and get your environment variables ready:
 
-```shell
+```bash
 cd stock-price-web-app/
 mv .env.template .env.local
 ```
@@ -52,7 +52,11 @@ npm run dev
 # Finhub api integrations
 
 To enable the integrations you need to add the following to your `.env.local` file:
+
+```bash
 NEXT_PUBLIC_FINHUB_KEY=<your-finhub-api-key>
+```
+
 
 ## App structure
 
