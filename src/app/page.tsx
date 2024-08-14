@@ -30,7 +30,6 @@ export default function Home() {
           {loading && <h1>Fetching...</h1>}
           {search && !loading && result && <SearchList result={result} />}
         </div>
-
       </div>
 
     </main>
