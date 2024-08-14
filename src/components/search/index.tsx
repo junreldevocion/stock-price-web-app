@@ -11,6 +11,7 @@ export function Search({ onChange }: SearchProps) {
   const debounce = useDebounce(search);
 
   useEffect(() => {
+    // set onChange callback
     onChange(debounce);
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [debounce]);

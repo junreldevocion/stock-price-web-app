@@ -52,6 +52,7 @@ export function SearchList({ result }: SearchListProps) {
   ];
 
   // This is to check if the qoute result is a valid number,
+  // but the idea on this is to make sure we return all Qoute result with number else it's not a valid symbol or it's not available
   // because I don't have any idea how to check if the symbol is valid or not.
   // I just did like this, it's not a great solution but I tried my best :)
   const checkIfSymbolIsValid = stockPrices.every((stock) => typeof stock.value === 'number');
