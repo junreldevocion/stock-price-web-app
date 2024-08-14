@@ -83,8 +83,15 @@ Contains global TypeScript type defintions.
 
 # Resources
 
-To learn more about Next.js, take a look at the following resources:
+## Learn more about Next.js
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Website](https://nextjs.org/)
+- [GitHub](https://github.com/vercel/next.js)
+- [Documentation](https://nextjs.org/docs)
+
+## Learn more about Chadcn
+
+- [Website](https://ui.shadcn.com/)
+- [GitHub](https://github.com/shadcn-ui/ui)
+- [Documentation](https://ui.shadcn.com/docs)
 
