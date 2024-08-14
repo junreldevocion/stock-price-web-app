@@ -1,4 +1,4 @@
-This is a search stock price web app project 
+This is a search stock price web app project where you can input stock symbol and you will get the realtime price result
 
 ### Prerequisites
 
