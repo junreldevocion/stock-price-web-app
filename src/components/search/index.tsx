@@ -15,5 +15,5 @@ export function Search({ onChange }: SearchProps) {
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [debounce]);
 
-  return <Input type="text" onChange={(e) => setSearch(e.target.value)} className="w-full p-6" placeholder="Typing stock symbol..." />;
+  return <Input type="text" onChange={(e) => setSearch(e.target.value)} className="w-full p-5" placeholder="Typing stock symbol..." />;
 }
