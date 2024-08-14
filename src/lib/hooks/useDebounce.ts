@@ -15,7 +15,7 @@ export function useDebounce<T>(value: T, delay: number = 500): T {
       setDebounceValue(value);
     }, delay);
     return () => {
-      clearTimeout(handler as any);
+      clearTimeout(handler);
     };
   }, [delay, value]);
 
