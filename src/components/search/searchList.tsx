@@ -56,7 +56,7 @@ export function SearchList({ result }: SearchListProps) {
   // I just did like this, it's not a great solution but I tried my best :)
   const checkIfSymbolIsValid = stockPrices.every((stock) => typeof stock.value === 'number');
 
-  // return error component if symbol is not valid
+  // return error component if symbol is not valid or Change and Percent change is null
   if (!checkIfSymbolIsValid) return <CustomAlert title={ERROR_TITLE_RESULT} description={ERROR_DESCRIPTION_RESULT} />;
 
   return (

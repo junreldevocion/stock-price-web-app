@@ -43,12 +43,6 @@ npm run dev
 
 Your site is now running at http://localhost:3000
 
-First, run the development server:
-
-```bash
-npm run dev
-```
-
 # Finhub api integrations
 
 To enable the integrations you need to add the following to your `.env.local` file:

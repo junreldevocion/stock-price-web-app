@@ -19,6 +19,7 @@ export const useSearchStockPrice = (search: string) => {
     setLoading(true);
     setError(false);
 
+    // perform search
     const getSearch = async () => {
       const response = await searchStockPrice(search);
       if (!response) setError(true);

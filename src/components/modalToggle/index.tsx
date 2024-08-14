@@ -14,7 +14,6 @@ import { Button } from '@/components/ui/button';
 
 export function ModeToggle() {
   const { setTheme } = useTheme();
-
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
