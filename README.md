@@ -25,10 +25,10 @@ mv .env.template .env.local
 
 ### Install dependencies
 
-Use npm to install all dependencies.
+Use yarn to install all dependencies.
 
 ```bash
-npm install
+yarn install
 ```
 
 ### Start developing
@@ -36,7 +36,7 @@ npm install
 You are now ready to start up your project.
 
 ```bash
-npm run dev
+yarn dev
 ```
 
 ### Open the code and start exploring or customizing
