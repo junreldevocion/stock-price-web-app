@@ -73,7 +73,7 @@ The components folder contains all reusable components to be use in entire appli
 
 ### `/lib` **directory**
 
-The lib directory contains all utilities like the Finhub Js client functions, util functions, config and constants. 
+The lib directory contains all utilities like the Finhub Js client functions, util functions, config, hooks and constants. 
 
 ### `/types` directory
 
