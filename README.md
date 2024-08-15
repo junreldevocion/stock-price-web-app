@@ -67,6 +67,10 @@ NEXT_PUBLIC_FINHUB_KEY=<your-finhub-api-key>
 
 The app folder contains all Next.js App Router pages and layouts, and takes care of the routing.
 
+### `/components` directory
+
+The components folder contains all reusable components to be use in entire application
+
 ### `/lib` **directory**
 
 The lib directory contains all utilities like the Finhub Js client functions, util functions, config and constants. 
